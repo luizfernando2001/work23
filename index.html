@@ -40,55 +40,7 @@
         </a>
     </div>
     <!-- Modal -->
-    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content modal1 ">
-                <div class="modal-header modal1 ">
-
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-<span aria-hidden="true">&times;</span>
-</button>
-                </div>
-
-                <div class="modal-body modal1 ">
-                    <div class="col">
-                        <div class="alert " role="alert">
-                            <h1 class="text-center text-white">Cadastro de usuario</h1>
-                            <hr>
-                            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam vel similique rem totam Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam vel similique rem totam </p>
-
-                            <div class="form-group">
-
-
-
-                                <input class="form-control" type="text" required="required" pattern="[a-z\S]+$" placeholder="Seu nome">
-
-                            </div>
-
-                            <div class="row">
-                                <div class="col-5"> <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu e-mail"></div>
-
-                                <div class="col-2 "></div>
-                                <div class="col-5"><input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha"></div>
-                            </div>
-
-                            <div class="form-group py-3">
-
-                                <input class="form-control" type="text" required="required" pattern="[a-z\S]+$" placeholder="Seu endereço">
-
-                            </div>
-
-                            <div class="text-right">
-                                <input class="btn btn-primary" type="reset" value="Reset">
-                                <input class="btn btn-primary" type="submit" value="Submit">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
+    
     <header>
 
 
@@ -135,7 +87,7 @@
                     <button type="button" class="btn btn-danger">Buscar</button>
                 </form>
 
-                <button type="button" class="luu btn btn-danger ml-2" data-toggle="modal" data-target="#staticBackdrop">
+                <button type="button" class="btn btn-danger mx-3 " data-toggle="modal" data-target="#loginModal">
         
                 <span class="lua-user 
                 " ></span>
@@ -144,6 +96,58 @@
             </button>
             </div>
         </nav>
+
+<!-- Pagina de login -->
+
+<div class="modal fade  " id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered  " role="document">
+      <div class="modal-content  modal1 ">
+        <div class="modal-header border-bottom-0">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body  ">
+          <div class="form-title text-center">
+            <h4  >Login</h4>
+          </div>
+          <div class="d-flex flex-column text-center">
+            <form>
+              <div class="form-group">
+                <input type="email" class="form-control" id="email1"placeholder="Seu endereço de Email...">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="password1" placeholder="Sua senha...">
+              </div>
+              <button type="button" class="btn btn-info btn-block btn-round">Login</button>
+            </form>
+            
+            <div class="text-center text-muted delimiter "> > ou use uma rede social </div>
+            <div class="d-flex justify-content-center social-buttons">
+              <button type="button" class="btn btn-secondary rounded-circle " data-toggle="tooltip" data-placement="top" title="Twitter">
+                <i class=" lua-google-plus-square"></i>
+              </button>
+              <button type="button" class="btn btn-secondary rounded-circle" data-toggle="tooltip" data-placement="top" title="Facebook">
+                <i class=" lua-facebook-square"></i>
+              </button>
+              <button type="button" class="btn btn-secondary rounded-circle"data-toggle="tooltip" data-placement="top" title="Linkedin">
+                <i class=" lua-linkedin-square"></i>
+              </button>
+            </di>
+          </div>
+        </div>
+      </div>
+        <div class="modal-footer d-flex justify-content-center">
+          <div class="signup-section">Nao e Membro? <a href="#a" class="text-info"> cadastre-se</a>.</div>
+        </div>
+    </div>
+  </div>
+
+
+
+
+
+
 
 
     </header>
@@ -268,7 +272,7 @@
                         <h5>Inicio</h5>
                         <ul>
                             <li><a href="">Home</a></li>
-                            <li><a href="">Cursos</a></li>
+                           
                             <li><a href="">Downloads</a></li>
                         </ul>
                     </div>
@@ -307,6 +311,7 @@
 
 
 
+<!-- notificaçao -->
 
 
 

@@ -153,11 +153,6 @@ body {
 /* rodape */
 
 
-/* modal */
-
-.modal1 {
-    background-image: url(public/bootstrap/img/plawy.jpg);
-}
 
 
 /* scholbar  tamanho  */
@@ -229,3 +224,43 @@ body {
 
 
 /* Fim ZOom imagem */
+
+
+/* modal */
+@media (min-width: 576px) {
+    .modal-dialog {
+      max-width: 400px;
+    }
+    .modal-dialog .modal-content {
+      padding: 1rem;
+    }
+  }
+  .modal-header .close {
+    margin-top: -1.5rem;
+  }
+   
+  .form-title {
+    margin: -2rem 0rem 2rem;
+  }
+   
+  .btn-round {
+    border-radius: 3rem;
+  }
+   
+  .delimiter {
+    padding: 1rem;
+    
+  }
+   
+  .social-buttons .btn {
+    margin: 0 0.5rem 1rem;
+  }
+   
+  .signup-section {
+    padding: 0.3rem 0rem;
+  }
+
+
+  
+  
+  /* modal fim  */
